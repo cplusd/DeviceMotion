@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         motionManager = CMMotionManager()
         if !motionManager!.isDeviceMotionAvailable {
-            print("陀螺仪不可用")
+            print("Device Motion is not available.")
             return
         }
         
